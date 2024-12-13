@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mudit Sultania</title>
+    <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/616fa2a447.js" crossorigin="anonymous"></script>
 </head>
@@ -24,7 +25,7 @@
             </nav>
             <div class="header-text">
                 <p>Web Developer</p>
-                <h1>Hi, I am <span>Mudit</span><br> a Web Designer</h1>
+                <h1>Hi, I am <span>Mudit</span><br> a Web <span>Designer</span></h1>
             </div>
         </div>
     </div>
@@ -199,7 +200,7 @@ function closemenu(){
             msg.innerHTML = "Message sent successfully"
             setTimeout(function(){
                 msg.innerHTML = ""
-            },3000)
+            },5000)
             form.reset()
         })
         .catch(error => console.error('Error!', error.message))
